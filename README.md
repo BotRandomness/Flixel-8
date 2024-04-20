@@ -5,7 +5,7 @@
   <br>
   <b>Flixel-8</b>
   <br>
-  <sub><sup><b>Flixel-8, a Chip-8 emualtor, written in Haxe, powered by HaxeFlixel.</b></sup></sub>
+  <sub><sup><b>Flixel-8, a Chip-8 emulator, written in Haxe, powered by HaxeFlixel.</b></sup></sub>
   <br>
 
 </h1>
