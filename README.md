@@ -51,6 +51,7 @@ Pressing [SPACE] anytime brings up the menu where you could load/reload roms, ch
 - Popular Chip-8 roms are already included in the `assets/data` directory, however you add your own roms here
 - Note that when inputting the rom name, it's already pointed to the `assets/data` directory
 - Also note when inputting the rom name, for capital letters, use the [SHIFT] key
+- Debug console will open up, showing all instructions being excuted, along with opcode, and values being used
 
 ## Screenshots
 <a href="https://github.com/BotRandomness/Flixel-8">
@@ -89,7 +90,7 @@ Here's a little on the program layout!
 
 Looking over the code, the program is quite simple, don't worry! This portation was written to be simple, so no matter of your skill level, anybody should get the idea of the program works, it's sort of the reason why I write these parts! :)
 
-The codebase is split into mainly 2 parts. The `Chip8.hx` is where all the Chip-8 code is. This includes all the hardware elements represented with data, and all the instrutions. The `PlayState.hx` is where the HaxeFlixel elements "connect" to the parts of the Chip-8. This includes the renderer, the main loop, the menu system, etc.
+The codebase is split into mainly 2 parts. The `Chip8.hx` is where all the Chip-8 code is. This includes all the hardware elements represented with data, and all the instructions. The `PlayState.hx` is where the HaxeFlixel elements "connect" to the parts of the Chip-8. This includes the renderer, the main loop, the menu system, etc.
 
 Haxe is a language simular to C# and Java. The strong focus of object oriented programming. The `Chip8.hx` is the Chip-8 object, and includes all the abilites of the Chip-8. `PlayState.hx` is main scene object. If you are coming from a game development background, this may sound familiar. If not, you think about scene as the "screen" you see, or the room/area the game is taking place. HaxeFlixel calls this "states". In this situation, where only using one state called Play State. The Play State is responsible for setting up, "drawing", and "updating" the the Chip-8 64x32 display. In this case, there is 2048 square sprites to represent each pixel.
 
@@ -163,7 +164,7 @@ These guides and specfications documents were so useful, I recommend anyone give
 
 - [ ] Many possible overflow/underflow issues
   - I tried my best to manage these issues but it's not perfect, any help on this would be great! :)
-- [ ] Certain instrutions don't work well
+- [ ] Certain instructions don't work well
   - The `0xFX0A`, the wait input instruction does not work at all
 - [ ] Cycle speed is not emulated perfectly
   - Games may run too fast or too slow
