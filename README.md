@@ -26,10 +26,10 @@
 ## Getting Started
 Want to use it, and mess around? Here's how you can get started!
 ### Download
-Currenly, there is no <em>native</em> builds of Windows, MacOS, and Linux versions yet, however you can freely do it yourself!
+Currently, there is no <em>native</em> builds of Windows, MacOS, and Linux versions yet, however you can freely do it yourself!
 But there is a Windows Hashlink build, which is a Windows build, with Haxe's Hashlink VM built in. <em>(Can we say VM-ception is going on)</em>
 #### Hashlink (Windows)
-1. Download it from here, or on the releases page.
+1. Download it from [here](https://github.com/BotRandomness/Flixel-8/releases), or on the releases page.
 2. Unzip the folder
 3. Open the `Flixel-8.exe`
 4. You are ready to go!
@@ -49,8 +49,8 @@ Pressing [SPACE] anytime brings up the menu where you could load/reload roms, ch
 
 ### Usage
 - Popular Chip-8 roms are already included in the `assets/data` directory, however you add your own roms here
-- Note that when inputing the rom name, it's already pointed to the `assets/data` directory
-- Also note when inputing the rom name, for capital letters, use the [SHIFT] key
+- Note that when inputting the rom name, it's already pointed to the `assets/data` directory
+- Also note when inputting the rom name, for capital letters, use the [SHIFT] key
 
 ## Screenshots
 <a href="https://github.com/BotRandomness/Flixel-8">
