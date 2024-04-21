@@ -154,7 +154,8 @@ To build my Chip-8 emulator, I used these amazing written specfication/guides:
 - Austin's Bulding a Chip-8 Emualtor: https://austinmorlan.com/posts/chip8_emulator/
 - RCA COSMAC VIP Manual: https://archive.org/details/bitsavers_rcacosmacCManual1978_6956559/mode/2up
 
-These guides and specfications documents were so useful, I recommend anyone give them a read if you are interested! 
+These guides and specfications documents were so useful, I recommend anyone give them a read if you are interested!
+Also shoutout to Raylib for raygui Cyber color theme inspiration for the Techno Blue theme! 
 
 ## Upcoming Features
 
