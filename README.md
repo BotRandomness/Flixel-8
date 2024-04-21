@@ -92,7 +92,9 @@ Looking over the code, the program is quite simple, don't worry! This portation 
 
 The codebase is split into mainly 2 parts. The `Chip8.hx` is where all the Chip-8 code is. This includes all the hardware elements represented with data, and all the instructions. The `PlayState.hx` is where the HaxeFlixel elements "connect" to the parts of the Chip-8. This includes the renderer, the main loop, the menu system, etc.
 
-Haxe is a language simular to C# and Java. The strong focus of object oriented programming. The `Chip8.hx` is the Chip-8 object, and includes all the abilites of the Chip-8. `PlayState.hx` is main scene object. If you are coming from a game development background, this may sound familiar. If not, you think about scene as the "screen" you see, or the room/area the game is taking place. HaxeFlixel calls this "states". In this situation, where only using one state called Play State. The Play State is responsible for setting up, "drawing", and "updating" the the Chip-8 64x32 display. In this case, there is 2048 square sprites to represent each pixel.
+Haxe is a language simular to C# and Java. The strong focus of object oriented programming. The `Chip8.hx` is the Chip-8 object, and includes all the abilites of the Chip-8. `PlayState.hx` is main scene object. If you are coming from a game development background, this may sound familiar. If not, you think about scene as the "screen" you see, or the room/area the game is taking place. HaxeFlixel calls this "states". In this situation, where only using one state called Play State. The Play State is responsible for setting up, "drawing", and "updating" the the Chip-8 64x32 display. In this case, there is 2048 square sprites to represent each pixel. 
+
+Sidenote, since most of the emulation code is contained in the `Chip8.hx`, and with Haxe's ability to compile to other languages and platforms, `Chip8.hx` can <em>theoretically</em> be *integrated with other projects in any other languages*. Along with HaxeFlixel, this makes <strong> this emulator portable enough to be ported to other platforms quite easily!</strong> I plan on making not only <strong>native desktop ports</strong>, but also <strong>Android</strong>, and potenially <strong>iOS</strong>.
 
 The `PlayState.hx` is quite simple. All it does is that it create the Chip-8 object, and contains functions to help with update with rendering, and other functionality like the menu and theme changing.
 
@@ -157,7 +159,7 @@ These guides and specfications documents were so useful, I recommend anyone give
 ## Upcoming Features
 
 - [ ] Add the "Beep" sound
-      - The Chip-8 can only play a beep sound
+  - The Chip-8 can only play a beep sound
 - Post any feature request in the Issues tab!
 
 ## Known issues
@@ -168,7 +170,7 @@ These guides and specfications documents were so useful, I recommend anyone give
   - The `0xFX0A`, the wait input instruction does not work at all
 - [ ] Cycle speed is not emulated perfectly
   - Games may run too fast or too slow
-- If you find other issues, open up a issue in the Issue tab
+- If you find other bugs/issues, open up a issue in the Issue tab
 
 ## Contributing
 
